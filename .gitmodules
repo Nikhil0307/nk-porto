@@ -1,6 +1,7 @@
 [submodule "content/posts"]
 	path = content/posts
 	url = https://github.com/Nikhil0307/cognizance.git
+        branch = main
 [submodule ".github/workflows/themes/PaperMod"]
 	path = .github/workflows/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
