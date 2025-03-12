@@ -28,24 +28,19 @@ weight = 1
   weight = 100
 
   [[languages.en.menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 200
-
-  [[languages.en.menu.main]]
   name = "Blog"
-  url = "/blog/"
-  weight = 300
+  url = "https://nikhilbaskar.substack.com/"
+  weight = 200
 
   [[languages.en.menu.main]]
   name = "GitHub"
   url = "https://github.com/Nikhil0307"
-  weight = 400
+  weight = 300
 
   [[languages.en.menu.main]]
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/nikhil0307/"
-  weight = 500
+  weight = 400
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
