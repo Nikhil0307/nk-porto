@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -36,7 +36,7 @@ jobs:
     steps:
       - name: Install Hugo CLI
         run: |
-         wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+         wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v%7BHUGO_VERSION%7D/hugo_%7BHUGO_VERSION%7D_Linux-64bit.tar.gz
          tar -xzf hugo.tar.gz
          sudo mv hugo /usr/local/bin/
          hugo version  # Verify the installed version
